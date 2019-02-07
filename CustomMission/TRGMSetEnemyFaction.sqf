@@ -1,38 +1,38 @@
 
-_useCustomEnemyFaction = false;
+_useCustomEnemyFaction = true;
 if (isServer && _useCustomEnemyFaction) then {
 		
-	sTeamleader = "O_T_Soldier_TL_F";
-	sRifleman = "O_T_Soldier_F";
-	sATMan = "O_T_Soldier_LAT_F";
-	sAAMan = "O_T_Soldier_AA_F";
-	sAmmobearer = "O_T_Soldier_A_F";
-	sGrenadier = "O_T_Soldier_GL_F";
-	sMedic = "O_T_Medic_F";
-	sMachineGunMan = "O_T_Soldier_AR_F";
-	sTank1ArmedCar = "O_T_LSV_02_armed_F";
-	sTank2APC = "O_T_APC_Wheeled_02_rcws_ghex_F";
-	sTank3Tank = "O_T_MBT_02_cannon_ghex_F";
-	sAAAVeh = "O_T_APC_Tracked_02_AA_ghex_F";
-	sMortar = ["O_Mortar_01_F"];
-	sSniper = "O_T_Sniper_F";
+	sTeamleader = "ZSN_EurosolELeader";
+	sRifleman = "ZSN_EurosolEB";
+	sATMan = "ZSN_EurosolELAW";
+	sAAMan = "ZSN_EurosolEAA";
+	sAmmobearer = "ZSN_EurosolEMGAss";
+	sGrenadier = "ZSN_EurosolELAWAss";
+	sMedic = "ZSN_EurosolEMedic";
+	sMachineGunMan = "ZSN_EurosolEMG";
+	sTank1ArmedCar = "ZSN_CUP_CSLA_BTR40_MG";
+	sTank2APC = "ZSN_CUP_CSLA_BMP1";
+	sTank3Tank = "ZSN_CUP_CSLA_T72";
+	sAAAVeh = "ZSN_CUP_MSV_ZSU23";
+	sMortar = ["ZSN_CSLA_Static2b14"];
+	sSniper = "ZSN_EurosolESniper";
 	sCivilian = ["C_man_polo_1_F"];
-	sArtilleryVeh = "O_T_MBT_02_arty_ghex_F";
+	sArtilleryVeh = "ZSN_CSLA_D30";
 	sBoatUnit = "O_T_Boat_Armed_01_hmg_F";		
-	sExpSpec = "O_T_Soldier_Exp_F"; 		
+	sExpSpec = "ZSN_SoldierESaboteur"; 		
 
-	sTeamleaderMilitia = "O_G_Soldier_TL_F";
-	sRiflemanMilitia = "O_G_Soldier_F";
-	sATManMilitia = "O_G_Soldier_LAT_F";
-	sAAManMilitia = "O_G_Soldier_LAT_F";	
-	sAmmobearerMilitia = "O_G_Soldier_A_F";
-	sGrenadierMilitia = "O_G_Soldier_GL_F";
-	sMedicMilitia = "O_G_medic_F";
-	sMachineGunManMilitia = "O_G_Soldier_AR_F";
-	sTank1ArmedCarMilitia = "O_G_Offroad_01_armed_F";
-	sTank2APCMilitia = "O_G_Offroad_01_armed_F";
-	sTank3TankMilitia = "O_G_Offroad_01_armed_F";
-	sAAAVehMilitia = "";
+	sTeamleaderMilitia = "ZSN_EurosolGLeader";
+	sRiflemanMilitia = "ZSN_EurosolGB";
+	sATManMilitia = "ZSN_EurosolGLAW";
+	sAAManMilitia = "ZSN_EurosolGLAW";	
+	sAmmobearerMilitia = "ZSN_EurosolGLAWAss";
+	sGrenadierMilitia = "ZSN_EurosolGLAWAss";
+	sMedicMilitia = "ZSN_EurosolGSniper";
+	sMachineGunManMilitia = "ZSN_EurosolGMG";
+	sTank1ArmedCarMilitia = "ZSN_CUP_GUER_Datsun_PK";
+	sTank2APCMilitia = "ZSN_CUP_GUER_LR_SPG9";
+	sTank3TankMilitia = "ZSN_CUP_GUER_T34";
+	sAAAVehMilitia = "ZSN_CUP_GUER_Ural_ZU23";
 	sMortarMilitia = ["O_G_Mortar_01_F"];
 
 	InformantClasses = ["C_Orestes","C_Nikos"];
