@@ -6,7 +6,7 @@ if (isServer && _useCustomMission) then {
 
 	MainMissionTitle = "The Mission of DOOOOM";
 
-	iMissionParamType = 3;
+	iMissionParamType = 5;
 	/*
 		0=Heavy Mission (with two optional sides)
 		6=Heavy Mission (two hidden optional sides)
